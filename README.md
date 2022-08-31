@@ -10,8 +10,8 @@ Welcome to CS 110. I look forward to working with you this semester. This is you
 
 ## Student Info - MUST BE COMPLETED
 
-Preferred Name:
+Preferred Name: Kyle Mejorada
 
-Discord username:
+Discord username: babu#0820
 
-REPL url:
+REPL url:https://replit.com/@kmejorada156
