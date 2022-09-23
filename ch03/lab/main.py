@@ -45,7 +45,7 @@ pygame.Color((255,255,255))
 def points(num_sides):
   coords = []
   num_sides = num_sides
-  side_length = 10
+  side_length = 100
   offset = 20
 
   for i in range (num_sides):
