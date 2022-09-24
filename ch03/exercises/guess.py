@@ -4,7 +4,7 @@ num = random.randrange(1,10)
 guess = int(input("Guess a number between 1 and 10 "))
 
 i = 0
-for i in range(0,3):
+for i in range(3):
   if guess == num:
     print("You guessed correctly!")
     break
