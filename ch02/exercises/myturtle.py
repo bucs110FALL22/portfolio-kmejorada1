@@ -1,25 +1,21 @@
 import turtle
 
 my_turtle = turtle.Turtle()
+turtle.delay(50)
 
-sides = int(input("Input the number of sides you want your shape to have "))
-length = int(input("Input the length you want the sides to have "))
+my_turtle.color("purple")
+my_turtle.shape("turtle")
 
-turn = ((sides+1)*(90))/(sides)
-print(turn)
-#while True
-#my_turtle.forward(length)
-#my_turtle.right(turn)
-#my_turtle.forward(length)
-#my_turtle.right(turn)
-#my_turtle.forward(length)
-#my_turtle.right(turn)
-#my_turtle.forward(length)
-#my_turtle.right(turn)
+for i in range(4):
+  my_turtle.fd(50)
+  my_turtle.right(90)
 
- #   if abs(pos()) < 1:
- #       break
+my_turtle.up()
+my_turtle.fd(100)
+my_turtle.down()
 
-#window = turtle.Screen()
-#window.bgcolor("orange")
-#window.exitonclick()
+my_turtle("red")
+
+for i in range(4):
+  my_turtle.fd(50)
+  my_turtle.right(90)
